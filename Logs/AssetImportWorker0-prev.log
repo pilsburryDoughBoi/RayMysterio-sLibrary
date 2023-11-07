@@ -1,0 +1,295 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.26f1 (a16dc32e0ff2) revision 10579395'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16306 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.26f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/marco/Documents/RadioDoll/Ray_Mysterio's_Library
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57095
+Successfully changed project path to: C:/Users/marco/Documents/RadioDoll/Ray_Mysterio's_Library
+C:/Users/marco/Documents/RadioDoll/Ray_Mysterio's_Library
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [20360] Host "[IP] 10.0.0.29 [Port] 0 [Flags] 2 [Guid] 1273162718 [EditorId] 1273162718 [Version] 1048832 [Id] WindowsEditor(7,TyTy-Desktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [20360] Host "[IP] 10.0.0.29 [Port] 0 [Flags] 2 [Guid] 1273162718 [EditorId] 1273162718 [Version] 1048832 [Id] WindowsEditor(7,TyTy-Desktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 84.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.26f1 (a16dc32e0ff2)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/marco/Documents/RadioDoll/Ray_Mysterio's_Library/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 4600 (ID=0x412)
+    Vendor:   Intel
+    VRAM:     2048 MB
+    Driver:   20.19.15.5058
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56024
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009981 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 96.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.983 seconds
+Domain Reload Profiling:
+	ReloadAssembly (984ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (706ms)
+			LoadAssemblies (130ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (153ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (425ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (96ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (235ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005619 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\marco\Documents\RadioDoll\Ray_Mysterio's_Library\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\marco\Documents\RadioDoll\Ray_Mysterio's_Library\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.536 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1537ms)
+		BeginReloadAssembly (201ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (1190ms)
+			LoadAssemblies (154ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (335ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (644ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (479ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3064 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (56.3 KB). Loaded Objects now: 3527.
+Memory consumption went from 109.9 MB to 109.8 MB.
+Total: 7.360800 ms (FindLiveObjects: 0.520000 ms CreateObjectMapping: 0.299700 ms MarkObjects: 6.402100 ms  DeleteObjects: 0.137600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 740846.307806 seconds.
+  path: Assets/Models)/8-grunge-x-brush-stroke-5.png
+  artifactKey: Guid(5b6611205011df3429e4be19b9a2f6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models)/8-grunge-x-brush-stroke-5.png using Guid(5b6611205011df3429e4be19b9a2f6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80866e3808936cad347bcabf4fc32542') in 0.393478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 583.695574 seconds.
+  path: Assets/Models)/books_pack.png
+  artifactKey: Guid(a3f4ad65a926cf446bc48c5a9382e131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models)/books_pack.png using Guid(a3f4ad65a926cf446bc48c5a9382e131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '025076d9157a391ff5217e9074bd849f') in 0.031643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Models)/HistoricWrestling.jpg
+  artifactKey: Guid(c85a5614ec679d24ba88b3c4f5800027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models)/HistoricWrestling.jpg using Guid(c85a5614ec679d24ba88b3c4f5800027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aabf7e85e8d80224f94e9541d980d6f1') in 0.055312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Models)/Wrestling101.jpg
+  artifactKey: Guid(50c010c71ec6a774dbece8534bc1ae2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models)/Wrestling101.jpg using Guid(50c010c71ec6a774dbece8534bc1ae2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5987bc551cea78961932a422f99365b9') in 0.024847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Models)/kidsWrestling101.jpg
+  artifactKey: Guid(ca62330e069d4404e94028a651d17650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models)/kidsWrestling101.jpg using Guid(ca62330e069d4404e94028a651d17650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cad92f44b4fa3cff48ea55a435ecb98f') in 0.035944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Models)/WrestlingcomicKids.jpg
+  artifactKey: Guid(adf66394d3088e94186fcb6fb6bfae1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models)/WrestlingcomicKids.jpg using Guid(adf66394d3088e94186fcb6fb6bfae1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c765ff3ab1f4083a706ed4dd2fec52a') in 0.040119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models)/WrestlingTriva.jpg
+  artifactKey: Guid(fe5d795e03ffd7a4596e75bdc57732bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models)/WrestlingTriva.jpg using Guid(fe5d795e03ffd7a4596e75bdc57732bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab5dbd2338e6a9595852fb3f0115f6cc') in 0.046575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Models)/greenBook.jpg
+  artifactKey: Guid(6c7d33b25f1aa2a43a4b180a3b79c6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models)/greenBook.jpg using Guid(6c7d33b25f1aa2a43a4b180a3b79c6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3f67fe25a631284f8e14f7913995ebd') in 0.055718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Models)/WrestlingJan1951.jpg
+  artifactKey: Guid(4aae63f5fe6607a419f33b9e6823cbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models)/WrestlingJan1951.jpg using Guid(4aae63f5fe6607a419f33b9e6823cbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '616877a1e8ab77c1266267a3fa050401') in 0.020691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Models)/youthWrestling.jpg
+  artifactKey: Guid(04ca2f15faa9c4e488300a1801109838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models)/youthWrestling.jpg using Guid(04ca2f15faa9c4e488300a1801109838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66127a82c436b492022ca464d9497c10') in 0.034508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Models)/El kabon.jpg
+  artifactKey: Guid(9af7df876cd01a1409d1b86b7fdfd114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models)/El kabon.jpg using Guid(9af7df876cd01a1409d1b86b7fdfd114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f201242919925298f5e4c9bbf553eb39') in 0.038512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models)/goldBook.jpg
+  artifactKey: Guid(1e1e411d62095774f94d558f748f1abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models)/goldBook.jpg using Guid(1e1e411d62095774f94d558f748f1abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b8028670bfc08cec7fe36694ea732cf') in 0.029775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49.127393 seconds.
+  path: Assets/Models)/kidsRayMag 1.jpg
+  artifactKey: Guid(36414ddf0b5e2bf48b5e049d5d55adc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models)/kidsRayMag 1.jpg using Guid(36414ddf0b5e2bf48b5e049d5d55adc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '024ed3f6dd3af0efd5d5838ff05adc10') in 0.025168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 105.782043 seconds.
+  path: Assets/Models)/Wrestling101 1.jpg
+  artifactKey: Guid(670d1153353ecef408bb3b09b3ab1df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models)/Wrestling101 1.jpg using Guid(670d1153353ecef408bb3b09b3ab1df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2015de4d71aacfe81bc0ead13013cf9') in 0.029664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 90.206664 seconds.
+  path: Assets/Models)/El kabon 1.jpg
+  artifactKey: Guid(e9af867e50ae88c488739cefa4ead8f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models)/El kabon 1.jpg using Guid(e9af867e50ae88c488739cefa4ead8f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bd77b4d81da0bce54c4477a77f277e7') in 0.026000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3555.626032 seconds.
+  path: Assets/Prefabs/cb.jpg.crdownload
+  artifactKey: Guid(5d96a206b2871594caf14d4e9ad43673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/cb.jpg.crdownload using Guid(5d96a206b2871594caf14d4e9ad43673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83297f0124107a60d667c440f68abbb6') in 0.037657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 470.346969 seconds.
+  path: Assets/Models)/Screenshot (163).png
+  artifactKey: Guid(78dc2c0e3c199f7478c8de80897bdc73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models)/Screenshot (163).png using Guid(78dc2c0e3c199f7478c8de80897bdc73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83737c7c9d3dacf8095b69616f9a88a2') in 0.044973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Models)/Screenshot (165).png
+  artifactKey: Guid(85bb1933039414043a63cbd2ba19d9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models)/Screenshot (165).png using Guid(85bb1933039414043a63cbd2ba19d9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2b14287791a792c4820665aed020fff') in 0.015351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models)/Screenshot (164).png
+  artifactKey: Guid(cb5c5a999ab31474d83ac912dc09e698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models)/Screenshot (164).png using Guid(cb5c5a999ab31474d83ac912dc09e698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3301f5f7f6ed7c31d7d6e6caa66d223a') in 0.017677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 246.801495 seconds.
+  path: Assets/Prefabs/CompressedBooks (2).prefab
+  artifactKey: Guid(d2dfb8c46b187564c98c47b6494f3ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CompressedBooks (2).prefab using Guid(d2dfb8c46b187564c98c47b6494f3ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '914cf6884d56b782ac244389a219d745') in 0.214977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.556353 seconds.
+  path: Assets/Prefabs/CompressedBooks (4).prefab
+  artifactKey: Guid(5b496136ee8304845b96547c371d0110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CompressedBooks (4).prefab using Guid(5b496136ee8304845b96547c371d0110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad78814d5a0f8c200e95c75bde70904b') in 0.024250 seconds 
